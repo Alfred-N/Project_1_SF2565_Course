@@ -19,6 +19,6 @@ int main()
         double myCos = cosTaylor(*x, N), myCos2 = cosTaylor(*x, N + 1);
         verifyErrorBounded(myCos, myCos2, *x, "cos");
     }
-    return 0;
+    return EXIT_SUCCESS;
 }
 
